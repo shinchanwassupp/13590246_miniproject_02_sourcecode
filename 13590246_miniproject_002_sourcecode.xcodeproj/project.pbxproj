@@ -12,6 +12,14 @@
 		8FCCC7F5219F86940006922B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCC7F3219F86940006922B /* Main.storyboard */; };
 		8FCCC7F7219F86950006922B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCC7F6219F86950006922B /* Assets.xcassets */; };
 		8FCCC7FA219F86950006922B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCC7F8219F86950006922B /* LaunchScreen.storyboard */; };
+		8FCCC802219F8B2F0006922B /* choosePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCC801219F8B2F0006922B /* choosePage.swift */; };
+		8FCCC804219F8B440006922B /* easyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCC803219F8B440006922B /* easyPage.swift */; };
+		8FCCC806219F8B520006922B /* mediumPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCC805219F8B520006922B /* mediumPage.swift */; };
+		8FCCC808219F8B600006922B /* hardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCC807219F8B600006922B /* hardPage.swift */; };
+		8FCCC80A219F8B6D0006922B /* howtoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCC809219F8B6D0006922B /* howtoPage.swift */; };
+		8FCCC80F219F966E0006922B /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCC80D219F966D0006922B /* ProgressHUD.bundle */; };
+		8FCCC810219F966E0006922B /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCC80E219F966E0006922B /* ProgressHUD.m */; };
+		8FCCC812219FA31B0006922B /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCC811219FA31B0006922B /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		8FCCC7F6219F86950006922B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FCCC7F9219F86950006922B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FCCC7FB219F86950006922B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCCC801219F8B2F0006922B /* choosePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosePage.swift; sourceTree = "<group>"; };
+		8FCCC803219F8B440006922B /* easyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyPage.swift; sourceTree = "<group>"; };
+		8FCCC805219F8B520006922B /* mediumPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediumPage.swift; sourceTree = "<group>"; };
+		8FCCC807219F8B600006922B /* hardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hardPage.swift; sourceTree = "<group>"; };
+		8FCCC809219F8B6D0006922B /* howtoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howtoPage.swift; sourceTree = "<group>"; };
+		8FCCC80B219F966C0006922B /* 13590246_miniproject_02_sourcecode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13590246_miniproject_02_sourcecode-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FCCC80C219F966D0006922B /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		8FCCC80D219F966D0006922B /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		8FCCC80E219F966E0006922B /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		8FCCC811219FA31B0006922B /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,9 @@
 			children = (
 				8FCCC7EE219F86940006922B /* 13590246_miniproject_02_sourcecode */,
 				8FCCC7ED219F86940006922B /* Products */,
+				8FCCC80C219F966D0006922B /* ProgressHUD.h */,
+				8FCCC80E219F966E0006922B /* ProgressHUD.m */,
+				8FCCC80B219F966C0006922B /* 13590246_miniproject_02_sourcecode-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +75,16 @@
 		8FCCC7EE219F86940006922B /* 13590246_miniproject_02_sourcecode */ = {
 			isa = PBXGroup;
 			children = (
+				8FCCC811219FA31B0006922B /* sound.mp3 */,
+				8FCCC80D219F966D0006922B /* ProgressHUD.bundle */,
 				8FCCC7EF219F86940006922B /* AppDelegate.swift */,
 				8FCCC7F1219F86940006922B /* ViewController.swift */,
 				8FCCC7F3219F86940006922B /* Main.storyboard */,
+				8FCCC801219F8B2F0006922B /* choosePage.swift */,
+				8FCCC803219F8B440006922B /* easyPage.swift */,
+				8FCCC805219F8B520006922B /* mediumPage.swift */,
+				8FCCC807219F8B600006922B /* hardPage.swift */,
+				8FCCC809219F8B6D0006922B /* howtoPage.swift */,
 				8FCCC7F6219F86950006922B /* Assets.xcassets */,
 				8FCCC7F8219F86950006922B /* LaunchScreen.storyboard */,
 				8FCCC7FB219F86950006922B /* Info.plist */,
@@ -96,6 +124,7 @@
 				TargetAttributes = {
 					8FCCC7EB219F86940006922B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCCC80F219F966E0006922B /* ProgressHUD.bundle in Resources */,
 				8FCCC7FA219F86950006922B /* LaunchScreen.storyboard in Resources */,
 				8FCCC7F7219F86950006922B /* Assets.xcassets in Resources */,
 				8FCCC7F5219F86940006922B /* Main.storyboard in Resources */,
+				8FCCC812219FA31B0006922B /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCCC806219F8B520006922B /* mediumPage.swift in Sources */,
+				8FCCC804219F8B440006922B /* easyPage.swift in Sources */,
 				8FCCC7F2219F86940006922B /* ViewController.swift in Sources */,
+				8FCCC802219F8B2F0006922B /* choosePage.swift in Sources */,
 				8FCCC7F0219F86940006922B /* AppDelegate.swift in Sources */,
+				8FCCC80A219F8B6D0006922B /* howtoPage.swift in Sources */,
+				8FCCC810219F966E0006922B /* ProgressHUD.m in Sources */,
+				8FCCC808219F8B600006922B /* hardPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SJ3XMFB33;
 				INFOPLIST_FILE = 13590246_miniproject_02_sourcecode/Info.plist;
@@ -291,6 +329,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.kukeatchaiwan.-3590246-miniproject-02-sourcecode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "13590246_miniproject_02_sourcecode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SJ3XMFB33;
 				INFOPLIST_FILE = 13590246_miniproject_02_sourcecode/Info.plist;
@@ -309,6 +350,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.kukeatchaiwan.-3590246-miniproject-02-sourcecode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "13590246_miniproject_02_sourcecode-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
